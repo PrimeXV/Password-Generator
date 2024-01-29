@@ -1,0 +1,46 @@
+# Project Title
+
+Brief description of the project.
+
+## Table of Contents
+- [Demo](#demo)
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Author Profile](#author-profile)
+
+## Demo
+Repository: []
+Demo link: [https://www.webmobilefirst.com/en/screencasts/Et7XlC22Cn/]
+GitHub Page: []
+
+
+## Description
+
+- purpose
+The project is a web application that provides a password generation functionality. The purpose of the application is to allow users to generate strong and secure passwords with customized criteria.
+
+ - Main Features:
+Customizable password generation based on user-defined criteria such as length, special characters, and numbers.
+User-friendly interface for inputting password generation preferences.
+Instant display of the generated password for easy copying and use.
+
+## Features
+- This project includes a user-friendly interface for customizing password generation.
+- Real-time display of the generated password
+- A secure algorithm for creating strong passwords.
+
+## Installation
+Simply download the project files and open the index.html file in your web browser to start using the password generation tool.
+
+## Usage
+To generate a password, simply adjust the settings for length, special characters, and numbers, then click the 'Generate' button to see your secure password.
+
+## Contributing
+Got something in mind? Share your thoughts on enhancing the project or flagging a glitch. Your input is valuable, so feel free to raise an issue or send in a pull request. Looking forward to your ideas!
+
+## Author profile
+GitHub Profile: [https://github.com/PrimeXV]
+Twitter Profile: [https://twitter.com/Newleaf67?t=9Gy7yGSnOgir2rRtPnpMuA&s=09]

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="password-Generator.css">
+    <title>Hassan's Password Generator</title>
+</head>
+
+<body>
+
+    <!-- Gneral container -->
+    <div class="general-container">
+        <h1 class="heading">Hassan's Password Generator</h1>
+
+        <!--Password Container -->
+        <div class="password-container">
+            <label for="passwordOutput">Password</label>
+            <input type="text" id="passwordOutput" name="passwordOutput" class="password">
+        </div>
+        <!--Password Container -->
+
+
+        <!--Length Container -->
+        <div class="length-container">
+            <label for="length">Length: <span id="span">16</span></label>
+
+            <div class="slider">
+                 <input type="range" min="8" max="32" value="16" oninput="span.innerText = this.value" id="length"
+                class="length">
+            </div>
+           
+        </div>
+        <!--Length Container -->
+
+
+        <!--SETTINGS Container -->
+        <div class="setting-container">
+            <label>Settings</label>
+            <div class="check">
+                <input type="checkbox" id="checkbox1">
+                <label for="checkbox1">Number</label>
+            </div>
+
+            <div class="check">
+                <input type="checkbox" id="checkbox2">
+                <label for="checkbox2">Special Characters</label>
+            </div>
+
+        </div>
+        <!--SETTINGS Container -->
+
+        <!-- Generate Password-->
+        <button type="submit" class="generate-password">Generate Password</button>
+        <!-- Generate Password-->
+
+
+    </div>
+    <!-- General contaienr -->
+
+
+
+    <!-- JavaScript -->
+    <script src="password-Generator.js"></script>
+    <!-- JavaScript -->
+</body>
+
+</html>
